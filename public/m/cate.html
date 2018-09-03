@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <!-- 引入第三方mui包 -->
+    <link rel="stylesheet" href="lib/mui/css/mui.css">
+    <!-- 引入字体图标包 -->
+    <link rel="stylesheet" href="lib/fontAwesome/css/font-awesome.css">
+    <!-- 引入less -->
+    <link rel="stylesheet/less" href="less/cate.less">
+    <!-- 引入less编译器 -->
+    <script src="lib/less/less.js"></script>
+</head>
+
+<body>
+    <!-- 头部区域 -->
+    <header id="top">
+        <a href="index.html" class="icon_back fa fa-arrow-left"></a>
+        <form action="" class="search-from">
+            <input type="text">
+        </form>
+        <a href="#" class="icon_search fa fa-search"></a>
+    </header>
+    <!-- 内容部分 -->
+    <main id="main">
+        <!-- 左侧部分容器 -->
+        <div class="category-left">
+            <ul>
+                <li class="active"><a href="#">运动馆</a></li>
+                <li><a href="#">女士馆</a></li>
+                <li><a href="#">男士馆</a></li>
+                <li><a href="#">帆布馆</a></li>
+                <li><a href="#">户外馆</a></li>
+            </ul>
+        </div>
+        <!-- 右侧部分容器 -->
+        <div class="category-right">
+            <!--这里放置真实显示的DOM内容-->
+            <div class="mui-row">
+                <div class="mui-col-xs-4">
+                    <a href="#">
+                        <img src="/mobile/images/brand1.png" alt="">
+                        <p>耐克</p>
+                    </a>
+                </div>
+                <div class="mui-col-xs-4">
+                    <a href="#">
+                        <img src="/mobile/images/brand2.png" alt="">
+                        <p>阿迪</p>
+                    </a>
+                </div>
+                <div class="mui-col-xs-4">
+                    <a href="#">
+                        <img src="/mobile/images/brand3.png" alt="">
+                        <p>新百伦</p>
+                    </a>
+                </div>
+                <div class="mui-col-xs-4">
+                    <a href="#">
+                        <img src="/mobile/images/brand4.png" alt="">
+                        <p>哥伦比亚</p>
+                    </a>
+                </div>
+                <div class="mui-col-xs-4">
+                    <a href="#">
+                        <img src="/mobile/images/brand5.png" alt="">
+                        <p>匡威</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- 底部区域 -->
+    <!-- 引入mui.js文件 -->
+    <script src="lib/mui/js/mui.js"></script>
+    <!-- 引入zepo -->
+    <script sec="lib/zepto/zepto.min.js"></script>
+    <!-- 引入模板引擎 -->
+    <script src="lib/artTemplate/template.js"></script>
+    <!-- 引入自己的js -->
+    <script src="js/cate.js"></script>
+</body>
+
+</html>
